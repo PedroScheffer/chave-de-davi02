@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+  <title>Página Inicial</title>
+</head>
+
+<body>
+  <header id="nav-menu" aria-label="navigation bar">
+    <div class="img">
+      <img src="./assets/images/logopreta.png" alt="" height="40" width="43">
+      <h1>Chave de Davi</h1>
+    </div>
+    <div class="nav-container">
+      <div class="nav-start">
+        <nav class="menu">
+          <ul class="menu-bar">
+            <li>
+            </li>
+            <li>
+              <button class="nav-link dropdown-btn" data-dropdown="dropdown2" aria-haspopup="true" aria-expanded="false"
+                aria-label="discover">
+                Sobre nós
+                <i class="bx bx-chevron-down" aria-hidden="true"></i>
+              </button>
+              <div id="dropdown2" class="dropdown">
+                <ul role="menu">
+                  <li>
+                    <span class="dropdown-link-title">Categoria:</span>
+                  </li>
+                  <li role="menuitem">
+                    <a class="dropdown-link" href="#branding">A empresa</a>
+                  </li>
+                  <li role="menuitem">
+                    <a class="dropdown-link" href="#illustrations">Fundadores</a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+
+            <li>
+              <button class="nav-link dropdown-btn" data-dropdown="dropdown3" aria-expanded="false">
+                Fale Conosco
+                <i class="bx bx-chevron-down" aria-hidden="true"></i>
+              </button>
+              <div id="dropdown3" class="dropdown">
+                <ul>
+                  <li><span class="dropdown-link-title">Formas de Contato:</span></li>
+                  <li>
+                    <a class="dropdown-link" href="#frontend">Fone: (51) 98888-8888</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-link" href="#backend">WhatsApp</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-link" href="#ai-ml">WhatsApp 2</a>
+                  </li>
+                </ul>
+                <ul>
+                  <li>
+                    <span class="dropdown-link-title">E-Mail</span>
+                  </li>
+                  <li>
+                    <a class="dropdown-link" href="#ui-ux">seuemail@gmail.com</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-link" href="#writing">seuemail2@gmail.com</a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li><a class="nav-link" href="/">Dúvidas Frequentes</a></li>
+
+          </ul>
+        </nav>
+      </div>
+      <div class="nav-end">
+        <button id="hamburger" aria-label="hamburger" aria-haspopup="true" aria-expanded="false">
+          <i class="bx bx-menu" aria-hidden="true"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+  <script src="script.js"></script>
+</body>
+
+</html>
